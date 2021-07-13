@@ -1,0 +1,15 @@
+
+n=int(input("enter a number : "))
+list1=[]
+for i in range(n):
+    elements=int(input('enter elements'))
+    list1.append(elements)
+         
+
+def sum_array(list1):
+    
+    totalsum=0
+    for i in range (0,len(list1)):
+        totalsum=totalsum+list1[i]
+    print(totalsum)
+sum_array(list1)  
